@@ -1,6 +1,10 @@
 # Clon-Google  👨
+En la Escuela de desarrollo Web de Platzi he aprendido a maquetar y posisicionar elementos, para esto e creado un clon de google en donde se puede ver desde diferentes dispositivos.
 
+<img src="https://user-images.githubusercontent.com/65202664/90911751-09168f00-e39f-11ea-891b-aa0985cf1b44.PNG" />
+<br>
 
+Sigueme en mis redes sociales :)
 **Connect with me:**<br>
 
 <p align="left">
