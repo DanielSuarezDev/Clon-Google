@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+  width: 250px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+nav .nav-right-section a {
+  margin-right: 10px;
+  color: #000000;
+}
+
+nav .nav-right-section .nav-menu-icon {
+  background-image: url("https://static.thenounproject.com/png/756729-200.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+nav .nav-right-section .nav-photo img {
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+main {
+  margin-top: 150px;
+  text-align: center;
+}
+
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-logo img {
+  width: 70%;
+}
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 2px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+main .main-input-container:hover {
+  box-shadow: 0 2px 6px 1px #20212447;
+  border-color: #dfe1e500;
+}
+
+main .main-input .main-search-icon {
+  background-image: url("https://img.icons8.com/android/24/000000/search.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 15px;
+  height: 15px;
+}
+
+main .main-input .main-micro-icon {
+  background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+main .main-boton {
+  width: 530px;
+  margin: 0 auto;
+}
+
+main .main-boton div {
+  display: inline-block;
+}
+
+main .main-boton button {
+  padding: 2px 15px;
+  height: 36px;
+  background: #f2f2f2;
+  border: 0;
+  font-size: 14px;
+  color: #5f6368;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+main .main-boton button:hover {
+  background: #f5f5f5;
+  color: #000000;
+  border: 1px solid #5f6368;
+  box-shadow: 0 1px 1px #5f6368;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  font-size: 13px;
+  /*   display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+  list-style: none;
+  margin: 10px;
+  display: flex;
+  padding-left: 0;
+}
+
+footer .footer-left {
+  justify-self: left;
+}
+
+footer .footer-right {
+  justify-self: right;
+}
+
+footer ul li a {
+  color: #5f6368;
+  margin-right: 15px;
+}
+
+/* Parte Responsive Desing */
+/* max-width: Toda la pantalla Igual ó Inferior
+   min-width: Toda la pantalla desde la medida hacia arriba*/
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 480px) {
+  footer {
+    width: auto;
+    display: block;
+  }
+  footer ul {
+    display: flex;
+    padding: 0.5em 0;
+    margin-left: 1.5em;
+  }
+}
+@media screen and (max-width: 320px) {
+}
